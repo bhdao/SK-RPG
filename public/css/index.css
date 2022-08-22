@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: flex;
+  /* background-color: pink; */
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.main button {
+  display: flex;
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 7px;
+}
