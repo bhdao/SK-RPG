@@ -116,6 +116,24 @@ const allies = [
     defense: 10,
     speed: 5
   },
+  {
+    name: 'Angry Cat',
+    level: 9,
+    moves: {
+      'Cat-Tastrophe': {
+        type: 'offense',
+        power: 1000
+      },
+      'Grenade': {
+        type: 'offense',
+        power: 30,
+      }
+    },
+    hp: 15,
+    attack: 10,
+    defense: 4,
+    speed: 6
+  },
 ]
 
 const entities = {
